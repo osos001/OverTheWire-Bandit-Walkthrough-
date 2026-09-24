@@ -1,0 +1,55 @@
+# OverTheWire Bandit — Complete Walkthrough
+
+A personal study repository documenting my completion of the **OverTheWire Bandit** wargame.
+
+> **Scope:** This repository is for the OverTheWire Bandit training environment. Do not reuse scanning, brute-force, or exploitation techniques against systems without authorization.
+
+## What Bandit teaches
+
+Bandit is designed for beginners and builds command-line/Linux fundamentals through progressive levels. The official site describes it as a beginner-focused wargame and recommends using `man`, `help`, and notes while solving levels.
+
+## Contents
+
+- `levels/` — one Markdown file per transition
+- `WALKTHROUGH.md` — compact complete walkthrough
+- `NOTES.md` — lessons learned / skills map
+- `LICENSE` — repository documentation
+- `.gitignore` — keeps local secrets out of Git
+
+## Important: passwords are intentionally NOT stored here
+
+Passwords change and are credentials for the live training environment. I intentionally excluded the password list from this public repository.
+
+The screenshot from my completion proof has been sanitized separately with the passwords blurred.
+
+## Connection
+
+```bash
+ssh bandit<LEVEL>@bandit.labs.overthewire.org -p 2220
+```
+
+Start at Level 0 and use the password obtained from each level to authenticate to the next one.
+
+## Source
+
+Official OverTheWire Bandit:
+https://overthewire.org/wargames/bandit/
+
+The individual level goals and command suggestions in this repository are based on the official level pages, with the commands presented as a concise study-oriented solution path.
+
+## Skills practiced
+
+- SSH
+- Linux filesystem navigation
+- File permissions and ownership
+- `find`, `grep`, `sort`, `uniq`, `strings`
+- Base64 and ROT13
+- Hexdump reversal
+- gzip / bzip2 / tar
+- SSH keys
+- TCP sockets and TLS
+- Nmap service discovery
+- Cron
+- Setuid
+- Shell behavior and restricted shells
+- Git branches, history, tags, commits and push
